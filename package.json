@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Crete our own react compiler",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "build parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/03avinash/react-compiler.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs"
+  ],
+  "author": "Avinash Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/03avinash/react-compiler/issues"
+  },
+  "homepage": "https://github.com/03avinash/react-compiler#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
